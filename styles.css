@@ -5,6 +5,7 @@ html {
 
 body {
   color: #7d95b6;
+  background-color: black;
   text-align: center;
   font-family: "Orbitron", sans-serif;
   height: 100%;
@@ -26,9 +27,20 @@ body {
 /*Text*/
 
 #underline {
-  text-decoration: underline #575859 5px;
+  text-decoration: underline #5a8791 4px;
+  text-underline-offset: 6px;
 }
 
+h1 {
+  font-size: 2.5rem;
+  margin: 20px 0;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+  animation: slideUp 1.5s ease-out;
+}
+
+h3 {
+  text-shadow: 2px 2px 4px black;
+}
 /*Sections*/
 
 .terms {
@@ -37,6 +49,7 @@ body {
   font-size: 0.9rem;
   color: #7d95b6;
   opacity: 0.8;
+  animation: fadeIn 2s ease-out 1.5s;
 }
 
 /*Button*/
@@ -49,6 +62,14 @@ body {
   color: #52709e;
   border-radius: 6px;
   margin: 20px 0;
+  box-shadow: 0 0 10px #00cfff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.apply-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #00cfff;
 }
 
 /*Images*/
@@ -56,4 +77,29 @@ body {
 #spacex-logo {
   width: 200px;
   margin-top: 40px;
+  animation: fadeIn 2s ease-out;
+}
+
+/*Animations*/
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
