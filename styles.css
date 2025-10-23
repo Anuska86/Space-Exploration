@@ -5,6 +5,13 @@ body {
   text-align: center;
   font-family: "Orbitron", sans-serif;
 }
+/*Text*/
+
+.underline {
+  text-decoration: underline white 5px;
+}
+
+/*Button*/
 
 .apply-btn {
   padding: 5px 15px 5px 15px;
