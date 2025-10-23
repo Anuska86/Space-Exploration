@@ -1,0 +1,11 @@
+body {
+  background-image: url("./images/universe-arnaud-mariat.jpg");
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.apply-btn {
+  padding: 5px 15px 5px 15px;
+  background-color: white;
+}
