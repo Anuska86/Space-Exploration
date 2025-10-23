@@ -15,12 +15,11 @@ body {
   background-image: url("./images/galaxy.gif");
   background-size: cover;
   background-position: center;
-
-  padding: 60px 0 40px 0;
-  min-height: 100vh;
+  padding: 0;
+  height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -28,6 +27,16 @@ body {
 
 #underline {
   text-decoration: underline #575859 5px;
+}
+
+/*Sections*/
+
+.terms {
+  margin-top: auto;
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+  color: #7d95b6;
+  opacity: 0.8;
 }
 
 /*Button*/
@@ -39,10 +48,12 @@ body {
   font-weight: bold;
   color: #52709e;
   border-radius: 6px;
+  margin: 20px 0;
 }
 
 /*Images*/
 
 #spacex-logo {
   width: 200px;
+  margin-top: 40px;
 }
