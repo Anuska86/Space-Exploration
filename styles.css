@@ -3,9 +3,11 @@ body {
   background-size: cover;
   color: white;
   text-align: center;
+  font-family: "Orbitron", sans-serif;
 }
 
 .apply-btn {
   padding: 5px 15px 5px 15px;
   background-color: white;
+  font-family: "Orbitron", sans-serif;
 }
