@@ -52,6 +52,15 @@ h3 {
   animation: fadeIn 2s ease-out 1.5s;
 }
 
+.inspire {
+  font-size: 1.2rem;
+  color: #d0e0ff;
+  opacity: 0.85;
+  margin: 20px 0 10px 0;
+  animation: fadeIn 2s ease-out 1s;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+}
+
 /*Button*/
 
 .apply-btn {
