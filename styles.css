@@ -7,7 +7,7 @@ body {
 }
 /*Text*/
 
-.underline {
+#underline {
   text-decoration: underline white 5px;
 }
 
@@ -17,4 +17,10 @@ body {
   padding: 5px 15px 5px 15px;
   background-color: white;
   font-family: "Orbitron", sans-serif;
+}
+
+/*Images*/
+
+#spacex-logo {
+  width: 200px;
 }
