@@ -1,22 +1,44 @@
+html {
+  height: 100%;
+  margin: 0;
+}
+
 body {
-  background-image: url("./images/universe-arnaud-mariat.jpg");
-  background-size: cover;
-  color: white;
+  color: #7d95b6;
   text-align: center;
   font-family: "Orbitron", sans-serif;
+  height: 100%;
+  margin: 0;
 }
+
+.hero {
+  background-image: url("./images/galaxy.gif");
+  background-size: cover;
+  background-position: center;
+
+  padding: 60px 0 40px 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
 /*Text*/
 
 #underline {
-  text-decoration: underline white 5px;
+  text-decoration: underline #575859 5px;
 }
 
 /*Button*/
 
 .apply-btn {
   padding: 5px 15px 5px 15px;
-  background-color: white;
+  background-color: #fafcfd;
   font-family: "Orbitron", sans-serif;
+  font-weight: bold;
+  color: #52709e;
+  border-radius: 6px;
 }
 
 /*Images*/
